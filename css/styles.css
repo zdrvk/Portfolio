@@ -12,6 +12,7 @@ body {
     rgb(165, 76, 129),
     rgb(60, 16, 83)
   );
+  margin: 15px;
 }
 /* semi-global changes */
 
@@ -22,7 +23,7 @@ body {
   align-items: center;
   background-color: #457d846f;
   border-radius: 40px;
-  margin: 20px;
+  margin: 10px 0;
   padding: 10px;
 }
 
@@ -35,27 +36,60 @@ body {
 .navLinks {
   display: flex;
   flex-wrap: wrap;
+  border-left: 1px solid white;
+  margin-left: 5px;
 }
 
 .navLinks a {
   font-size: 29pt;
   margin: 10px;
+  text-decoration: none;
+}
+.navLinks a:hover {
+  color: peachpuff;
 }
 
 /* Header end */
 
 /* making responsive put at very bottom */
 @media screen and (max-width: 640px) {
+  /* header start */
   .nav {
     flex-direction: column;
     justify-content: flex-start;
   }
   .navLinks {
     flex-direction: column;
+    border: none;
   }
   .logo {
     max-width: 100%;
     height: 50px;
     width: 50px;
   }
+  /* header end */
 }
+
+/* CV BUTTON */
+/*   display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: rgb(147, 147, 147);
+  border: none;
+  box-shadow: 0 5px #555555;
+}
+
+.submit:hover {
+  background-color: #f6ddff;
+}
+
+.submit:active {
+  background-color: #f6ddff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ */
