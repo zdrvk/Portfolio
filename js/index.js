@@ -23,3 +23,32 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+// data fetch
+
+fetch(`data/data.json`)
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    inputData(data);
+  });
+
+function inputData(projectData) {
+  //   const projectInfoTarget = document.querySelector(`.projectInfoTarget`);
+
+  //   projectData.projects.forEach((item) => {
+  //     projectInfoTarget.textContent += item.name;
+  //   });
+  // }
+  const projectInfoTarget = document.querySelector(`.onlyProjects`);
+
+  projectData.projects.forEach((item) => {
+    projectInfoTarget.innerHTML +=
+      `<div class="project">
+    <img
+      src="` +
+      item.img +
+      `" class="projectImage"/>`;
+  });
+}

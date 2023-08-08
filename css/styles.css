@@ -12,7 +12,7 @@ body {
     rgb(165, 76, 129),
     rgb(60, 16, 83)
   );
-  margin: 15px;
+  margin: 0px 15px 15px 0px;
 }
 /* semi-global changes */
 
@@ -22,13 +22,13 @@ body {
   flex-wrap: wrap;
   align-items: center;
   background-color: #457d846f;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  border-top-left-radius: -40px;
+  border-top-right-radius: -40px;
   border-bottom-right-radius: -40px;
   border-bottom-left-radius: 40px;
   /* margin-top: 10px; */
-  margin: 10px 10px 0 10px;
-  padding: 10px;
+  margin: 0px 10px 0 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 .logo {
@@ -46,7 +46,7 @@ body {
 
 .navLinks a {
   font-size: 29pt;
-  margin: 10px;
+  margin: 10px 20px;
   text-decoration: none;
   transition: 1s;
 }
@@ -245,6 +245,28 @@ body {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #457d846f;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: -40px;
+  border-bottom-left-radius: -40px;
+  padding: 0 10px;
+  margin: 10px 10px 0px 10px;
+}
+.contact {
+  font-size: 29pt;
+  padding: 10px;
+  margin: 10px;
+  border-left: 1px solid white;
+  margin-left: 8px;
+}
+.contactLinks {
 }
 
 /* making responsive put at very bottom */

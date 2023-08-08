@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "name": "Cypher",
+      "img": "images/projectImage.gif",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
+      "desc2": "Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
+    },
+    {
+      "name": "Cypher",
+      "img": "images/projectImage.gif",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
+      "desc2": "Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
+    },
+    {
+      "name": "Cypher",
+      "img": "images/projectImage.gif",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
+      "desc2": "Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
+    }
+  ]
+}
