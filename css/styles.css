@@ -198,16 +198,43 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #ffffff;
+  background-color: #1f2973;
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  padding: 2rem 1rem;
+  border-radius: 40px;
+  max-width: 70%; /* Could be more or less, depending on screen size */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.8s;
 }
 
+.modal-content p {
+  max-width: 30%;
+}
+.modalImage {
+  max-width: 30%;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: #c8c8c8;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -264,8 +291,15 @@ body {
     text-align: center;
   }
 
+  .modal-content {
+    flex-direction: column;
+  }
+  .modal-content p {
+    max-width: 90%;
+  }
   .projectImage {
-    max-width: 70%;
+    width: 50%;
+    border-radius: 20px;
   }
 }
 
