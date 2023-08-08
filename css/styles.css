@@ -22,8 +22,12 @@ body {
   flex-wrap: wrap;
   align-items: center;
   background-color: #457d846f;
-  border-radius: 40px;
-  margin: 10px 0;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: -40px;
+  border-bottom-left-radius: 40px;
+  /* margin-top: 10px; */
+  margin: 10px 10px 0 10px;
   padding: 10px;
 }
 
@@ -44,9 +48,13 @@ body {
   font-size: 29pt;
   margin: 10px;
   text-decoration: none;
+  transition: 1s;
 }
 .navLinks a:hover {
   color: peachpuff;
+  /* background-color: blueviolet; */
+  /* border-radius: 20px; */
+  /* padding: 10px; */
 }
 
 /* Header end */
@@ -57,7 +65,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-right: 10px;
+  padding: 30px 0;
+  background-color: rgba(165, 76, 129, 0.501);
+  border-top-left-radius: 40px;
+  border-top-right-radius: -40px;
+  border-bottom-right-radius: -40px;
+  border-bottom-left-radius: 40px;
 }
 
 .mainImage {
@@ -66,10 +80,144 @@ body {
 
 .mainParagraph {
   text-align: right;
+  font-size: larger;
 }
-
 .intro {
   width: 400px;
+}
+
+.cv {
+  text-decoration: none;
+}
+/* main end */
+
+/* body start */
+.me {
+}
+.aboutMeBanner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #457d846f;
+  border-top-left-radius: 40px;
+  border-top-right-radius: -40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: -40px;
+  padding: 0 10px;
+  margin: 0 10px;
+  /* margin-top: 30px; */
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+.aboutMeSection {
+  font-size: 29pt;
+  padding: 10px;
+  margin: 10px;
+  border-left: 1px solid white;
+  margin-left: 8px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 10px 0px 10px;
+  padding-top: 20px;
+  background-color: rgba(59, 16, 83, 0.446);
+  border-top-left-radius: -40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: -40px;
+}
+.myDescription {
+  width: 30rem;
+  font-size: larger;
+}
+.myPic {
+  max-width: 40%;
+  /* width: 40rem; */
+}
+
+/* projects */
+/* banner */
+.projectsBanner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #457d846f;
+  border-top-left-radius: -40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.projectsSection {
+  font-size: 29pt;
+  padding: 10px;
+  margin: 10px;
+  border-left: 1px solid white;
+  margin-left: 8px;
+}
+/* Banner end */
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 10px;
+}
+
+.projectImage {
+  max-width: 40%;
+  border-radius: 40px;
+}
+
+.projectInfo {
+  max-width: 25rem;
+  text-align: right;
+  font-size: larger;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* making responsive put at very bottom */
@@ -78,7 +226,7 @@ body {
   .nav {
     flex-direction: column;
     justify-content: flex-start;
-    margin: 0 50px;
+    margin: 0 10px;
   }
   .navLinks {
     flex-direction: column;
@@ -97,6 +245,27 @@ body {
   }
   .mainParagraph {
     text-align: center;
+  }
+
+  .bannerProjects {
+    margin: 0 50px;
+    margin-top: 20px;
+  }
+  .myDescription {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  .myPic {
+    max-width: 80%;
+  }
+
+  .projectInfo {
+    text-align: center;
+  }
+
+  .projectImage {
+    max-width: 70%;
   }
 }
 
