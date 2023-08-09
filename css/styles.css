@@ -163,7 +163,7 @@ body {
   margin-left: 8px;
 }
 /* Banner end */
-
+/* PROJECTS */
 .project {
   display: flex;
   flex-wrap: wrap;
@@ -173,13 +173,15 @@ body {
 
 .projectImage {
   max-width: 40%;
+  height: auto;
   border-radius: 40px;
 }
 
-.projectInfo {
+.project .info {
   max-width: 25rem;
   text-align: right;
   font-size: larger;
+  justify-content: flex-end;
 }
 
 /* The Modal (background) */
@@ -267,6 +269,7 @@ body {
   margin-left: 8px;
 }
 .contactLinks {
+  display: flex;
 }
 
 /* making responsive put at very bottom */
@@ -320,7 +323,8 @@ body {
     max-width: 90%;
   }
   .projectImage {
-    width: 50%;
+    width: 15rem;
+    height: auto;
     border-radius: 20px;
   }
 }

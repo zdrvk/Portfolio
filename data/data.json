@@ -1,22 +1,25 @@
 {
   "projects": [
     {
-      "name": "Cypher",
+      "name": "Cypher1",
       "img": "images/projectImage.gif",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
-      "desc2": "Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
+      "img2": "images/projectImage.gif",
+      "desc": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
+      "desc2": "2Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
     },
     {
-      "name": "Cypher",
+      "name": "Cypher2",
       "img": "images/projectImage.gif",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
-      "desc2": "Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
+      "img2": "images/projectImage.gif",
+      "desc": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
+      "desc2": "4orem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
     },
     {
-      "name": "Cypher",
+      "name": "Cypher3",
       "img": "images/projectImage.gif",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
-      "desc2": "Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
+      "img2": "images/projectImage.gif",
+      "desc": "5Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
+      "desc2": "6Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
     }
   ]
 }
