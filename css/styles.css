@@ -14,6 +14,13 @@ body {
   );
   padding: 0 20px;
 }
+
+/* img {
+  float: left;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+} */
 /* semi-global changes */
 
 /* Header */
@@ -90,8 +97,6 @@ body {
 /* main end */
 
 /* body start */
-.me {
-}
 .aboutMeBanner {
   display: flex;
   flex-wrap: wrap;
@@ -173,8 +178,11 @@ body {
 }
 
 .projectImage {
-  border-radius: 40px;
-  margin: 10px;
+  float: left;
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .project .info {
@@ -201,17 +209,18 @@ body {
 /* Modal Content/Box */
 .modalContent {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   gap: 20px;
   color: #ffffff;
   background-color: #05148a;
-  margin: 15% auto;
+  margin: 10% auto;
   max-width: 85vw;
   max-height: 70vh;
-  padding: 3rem 2rem;
+  padding: 20px 10px;
   border-radius: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(215, 54, 54, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.8s;
 }
@@ -220,9 +229,11 @@ body {
   font-size: x-large;
 }
 .modalImage {
-  max-width: 70%;
-  height: auto;
-  border-radius: 40px;
+  float: left;
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 span {
@@ -330,7 +341,13 @@ span {
     font-size: larger;
     width: 40rem;
   }
-
+  .projectImage {
+    float: left;
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
   .modalContent {
     flex-wrap: wrap;
     width: 80vw;
@@ -339,11 +356,14 @@ span {
 
   .modalContent p {
     max-width: 90%;
+    flex-wrap: wrap;
   }
-  .projectImage {
-    max-width: 20rem;
-    height: auto;
-    border-radius: 20px;
+  .modalImage {
+    float: left;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
   }
   .logo {
     display: none;
@@ -359,8 +379,24 @@ span {
     margin: 5px;
   }
 }
+
 @media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 450px) {
   .moreInfoTarget {
     font-size: larger;
+  }
+  .modalContent {
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .modalImage {
+    float: left;
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30px;
   }
 }

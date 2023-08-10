@@ -1,23 +1,23 @@
 {
   "projects": [
     {
-      "name": "Cypher1",
-      "img": "images/projectImage.gif",
-      "img2": "images/projectImage.gif",
+      "name": "project1",
+      "img": "images/projectImage2.jpg",
+      "img2": "images/projectImage5.jpg",
       "desc": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
       "desc2": "2Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
     },
     {
-      "name": "Cypher2",
-      "img": "images/projectImage.gif",
-      "img2": "images/projectImage.gif",
+      "name": "proooject2",
+      "img": "images/projectImage3.jpg",
+      "img2": "images/projectImage6.jpg",
       "desc": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
       "desc2": "4orem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
     },
     {
-      "name": "Cypher3",
+      "name": "proooooject3",
       "img": "images/projectImage.gif",
-      "img2": "images/projectImage.gif",
+      "img2": "images/projectImage4.jpg",
       "desc": "5Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!",
       "desc2": "6Lorem ipsm dolor sit amet consectetur adipisicing elit. Odit modi eius repellendus architecto voluptatem fugiat? Facere, distinctio. Natus impedit nulla, numquam sed modi fuga assumenda. Velit nihil odio officiis. Ipsa!"
     }
