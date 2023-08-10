@@ -26,14 +26,14 @@
     <header>
       <nav class="nav">
         <!-- flexbox strat -->
-
         <img src="images/logo.png" class="logo" />
 
         <div class="navLinks">
-          <a href="#">About me.</a>
-          <a href="#">Projects.</a>
-          <a href="#">Contact.</a>
+          <a href="#abtMe">About me.</a>
+          <a href="#myProjects">Projects.</a>
+          <a href="#contactMe">Contact.</a>
         </div>
+        <img src="images/logo.png" class="logo" />
       </nav>
     </header>
     <main>
@@ -55,7 +55,7 @@
           <a href="#" class="cv"><img />CV DOWNLOAD</a>
         </div>
       </div>
-      <div class="me">
+      <div id="abtMe" class="me">
         <div class="aboutMeBanner">
           <img src="images/aboutme.png" class="logo" alt="about me icon" />
           <p class="aboutMeSection">About Me.</p>
@@ -82,7 +82,7 @@
           <img src="images/project.png" class="logo" alt="project icon" />
           <p class="projectsSection">Projects.</p>
         </div>
-        <div class="projects">
+        <div id="myProjects" class="projects">
           <!-- <div class="project"> -->
           <!-- <img
               src="images/projectImage.gif"
@@ -118,14 +118,19 @@
       </div>
     </main>
     <footer>
-      <div class="footer">
+      <div id="contactMe" class="footer">
         <img src="images/contact.png" class="logo" alt="about me icon" />
         <p class="contact">Contact.</p>
         <div class="contactLinks">
-          <a></a>
-          <a></a>
-          <a></a>
-          <a></a>
+          <a href="#"
+            ><img src="images/email.png" alt="email contact link"
+          /></a>
+          <a href="#"
+            ><img src="images/github.png" alt="github profile link"
+          /></a>
+          <a href="#"
+            ><img src="images/linkedin.png" alt="linkedIn profile link"
+          /></a>
         </div>
       </div>
     </footer>

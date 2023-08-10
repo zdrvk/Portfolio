@@ -12,22 +12,23 @@ body {
     rgb(165, 76, 129),
     rgb(60, 16, 83)
   );
-  margin: 0px 15px 15px 0px;
+  padding: 0 20px;
 }
 /* semi-global changes */
 
 /* Header */
+
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+
+  justify-content: space-between;
   background-color: #457d846f;
   border-top-left-radius: -40px;
   border-top-right-radius: -40px;
   border-bottom-right-radius: -40px;
   border-bottom-left-radius: 40px;
   /* margin-top: 10px; */
-  margin: 0px 10px 0 10px;
+  margin-right: 10px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -40,7 +41,7 @@ body {
 .navLinks {
   display: flex;
   flex-wrap: wrap;
-  border-left: 1px solid white;
+  align-content: center;
   margin-left: 8px;
 }
 
@@ -52,9 +53,6 @@ body {
 }
 .navLinks a:hover {
   color: peachpuff;
-  /* background-color: blueviolet; */
-  /* border-radius: 20px; */
-  /* padding: 10px; */
 }
 
 /* Header end */
@@ -80,7 +78,7 @@ body {
 
 .mainParagraph {
   text-align: right;
-  font-size: larger;
+  font-size: x-large;
 }
 .intro {
   width: 400px;
@@ -134,7 +132,7 @@ body {
 }
 .myDescription {
   width: 30rem;
-  font-size: larger;
+  font-size: x-large;
 }
 .myPic {
   max-width: 40%;
@@ -168,17 +166,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 30px 10px;
+  margin: 30px 0;
+  font-size: large;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 .projectImage {
-  max-width: 40%;
-  height: auto;
   border-radius: 40px;
+  margin: 10px;
 }
 
 .project .info {
-  max-width: 25rem;
+  max-width: 40rem;
   text-align: right;
   font-size: larger;
   justify-content: flex-end;
@@ -199,28 +199,34 @@ body {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modalContent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 20px;
   color: #ffffff;
-  background-color: #1f2973;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 2rem 1rem;
+  background-color: #05148a;
+  margin: 15% auto;
+  max-width: 85vw;
+  max-height: 70vh;
+  padding: 3rem 2rem;
   border-radius: 40px;
-  max-width: 70%; /* Could be more or less, depending on screen size */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.8s;
 }
 
-.modal-content p {
-  max-width: 30%;
+.moreInfoTarget {
+  font-size: x-large;
 }
 .modalImage {
-  max-width: 30%;
-  width: 100%;
+  max-width: 70%;
+  height: auto;
   border-radius: 40px;
+}
+
+span {
+  display: none;
 }
 
 /* Add Animation */
@@ -268,16 +274,20 @@ body {
   border-left: 1px solid white;
   margin-left: 8px;
 }
-.contactLinks {
-  display: flex;
+.contactLinks img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-decoration: none;
 }
 
 /* making responsive put at very bottom */
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 770px) {
   /* header start */
   .nav {
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    justify-content: space-around;
     margin: 0 10px;
   }
   .navLinks {
@@ -298,7 +308,9 @@ body {
   .mainParagraph {
     text-align: center;
   }
-
+  .intro {
+    width: 80vw;
+  }
   .bannerProjects {
     margin: 0 50px;
     margin-top: 20px;
@@ -313,42 +325,42 @@ body {
   }
 
   .projectInfo {
+    max-width: 100%;
     text-align: center;
+    font-size: larger;
+    width: 40rem;
   }
 
-  .modal-content {
-    flex-direction: column;
+  .modalContent {
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 80vh;
   }
-  .modal-content p {
+
+  .modalContent p {
     max-width: 90%;
   }
   .projectImage {
-    width: 15rem;
+    max-width: 20rem;
     height: auto;
     border-radius: 20px;
   }
-}
+  .logo {
+    display: none;
+  }
+  .footer .contact {
+    display: none;
+  }
 
-/* CV BUTTON */
-/*   display: inline-block;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #000000;
-  background-color: rgb(147, 147, 147);
-  border: none;
-  box-shadow: 0 5px #555555;
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+  }
 }
-
-.submit:hover {
-  background-color: #f6ddff;
+@media screen and (max-width: 400px) {
+  .moreInfoTarget {
+    font-size: larger;
+  }
 }
-
-.submit:active {
-  background-color: #f6ddff;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
- */
