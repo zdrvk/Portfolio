@@ -14,7 +14,10 @@ body {
   );
   padding: 0 20px;
 }
-
+.containAll {
+  max-width: 1440px;
+  margin: auto;
+}
 /* img {
   float: left;
   width: 300px;
@@ -238,7 +241,7 @@ body {
     rgb(60, 16, 83),
     rgb(165, 76, 129)
   );
-  margin: 10% auto;
+  margin: 40% auto;
   max-width: 85vw;
   max-height: 70vh;
   padding: 20px 10px;
