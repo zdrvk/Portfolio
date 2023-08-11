@@ -50,3 +50,5 @@ function inputData(data) {
     });
   });
 }
+
+() => {};
